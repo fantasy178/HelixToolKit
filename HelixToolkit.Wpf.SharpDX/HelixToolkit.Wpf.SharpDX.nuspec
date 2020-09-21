@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <id>HelixToolkit.Wpf.SharpDX</id>
+    <version>$version$</version>
+    <title>HelixToolkit for WPF (based on SharpDX)</title>
+    <authors>objo</authors>
+    <licenseUrl>https://raw.githubusercontent.com/helix-toolkit/helix-toolkit/master/LICENSE</licenseUrl>
+    <projectUrl>http://helix-toolkit.github.io/</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/helix-toolkit/helix-toolkit/master/Images/helixtoolkit.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Provides custom controls for WPF and a scene graph based on SharpDX.</description>
+    <tags>wpf SharpDX 3D</tags>
+    <dependencies>
+      <dependency id="Cyotek.Drawing.BitmapFont" version="1.0.2.0" />
+      <dependency id="HelixToolkit" version="[$version$]" />
+      <dependency id="HelixToolkit.Wpf" version="[$version$]" />
+      <dependency id="SharpDX" version="2.6.3" />
+      <dependency id="SharpDX.D3DCompiler" version="2.6.3" />
+      <dependency id="SharpDX.Direct2D1" version="2.6.3" />
+      <dependency id="SharpDX.Direct3D11" version="2.6.3" />
+      <dependency id="SharpDX.Direct3D11.Effects" version="2.6.3" />
+      <dependency id="SharpDX.Direct3D9" version="2.6.3" />
+      <dependency id="SharpDX.DXGI" version="2.6.3" />
+      <dependency id="SharpDX.Toolkit" version="2.6.3" />
+      <dependency id="SharpDX.Toolkit.Graphics" version="2.6.3" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\..\Output\NET45\HelixToolkit.Wpf.SharpDX.???" target="lib\net45" />
+    <file src="..\..\Output\NET40\HelixToolkit.Wpf.SharpDX.???" target="lib\net40" />
+    <file src="..\..\LICENSE" />
+    <file src="..\..\AUTHORS" />
+    <file src="..\..\CONTRIBUTORS" />
+    <file src="..\..\README.md" />
+  </files>
+</package>
